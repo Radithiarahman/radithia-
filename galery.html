@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DESIGN LAYOUT</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">  
+		<a href="index2.html">HOME</a>
+		<a href="galery.html">GALLERY</a>
+		<a href="aboutus.html">ABOUT US</a>
+		<a href="contactus.html">CONTACT US</a>
+        <div id=date-time></div>
+	</div>
+    <div id="content">
+            <!--java-->
+        <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short',
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+	<body>
+    <div class="wrapper">
+        <h1>Gallery Fast and Furious</h1>
+    <div class="galeri">
+        <img src="for1.jpg">
+        <p>PEMERAN 1</p>
+    </div>
+    <div class="galeri">
+        <img src="for2.jpg">
+        <p>PEMERAN 2</p>
+    </div>
+    <div class="galeri">
+        <img src="for3.jpg">
+        <p>PEMERAN 3</p>
+    </div>
+    <div class="galeri">
+        <img src="for4.jpg">
+        <p>PEMERAN 4</p>
+    </div>
+    <div class="galeri">
+        <img src="for7.jpg">
+        <p>PEMEERAN 5</p>
+ </div>
+    <div class="galeri">
+        <img src="for6.jpg">
+        <p>PEMERAN 6</p>
+    </div>
+ <div id="# footer">
+		<p>&copy; @RADITHIA RAHMAN [ NIM-231011700474]</p>
+	</div>
+</div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tenta kami</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">
+		<a href="index2.html">HOME</a>
+		<a href="galery.html">GALLERY</a>
+		<a href="aboutus.html">ABOUT US</a>
+		<a href="contactus.html">CONTACT US</a>
+		<div id=date-time></div>
+	</div>
+	<div id="content">
+		 <div id="content">
+            <!--java-->
+        <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short',
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+		<h1>tentang kami</h1>
+		<img src="yewen.jpeg">
+		<p>memang film laga, tapi tetap ada beberapa dialog bermakna dari film-film ini yang bisa juga jadi pegangan hidup buat kamu. Selain mengumbar banyak adegan laga, film waralaba ini juga kerap kali menunjukkan betapa penting dan kuatnya ikatan keluarga. Bagi Dominic Toretto, keluarga, baik yang sedarah maupun bukan, adalah hal yang paling penting dari segala yang ada di dunia.
+        - iOS: https://sin.do/u/ios</p>
+		<p>Ucapan "Saya bukan punya teman, yang saya punya adalah keluarga" ini diucapkan Dom Toretto dalam "Furious 7" (2015)."Kita melakukan yang terbaik, kita berkembang, oke?" ini dikatakan oleh Brian O’Conner dalam "Fast and Furious 6" (2013)."Hidup itu sederhana. Kamu membuat pilihan dan setelah itu tidak lagi melihat ke belakang". Ini adalah kalimat penting yang dikatakan oleh Han Lue dalam "The Fast and The Furious: Tokyo Drift" (2006).</p>
+		<p>"Uang akan datang dan pergi. Kita semua tahu itu. Hal terpenting dalam hidup ini adalah orang-orang yang ada di ruangan ini. Di sini, saat ini" diucapkan oleh Dom Toretto dalam "Fast Five" (2011).</p>
+		<h3>bengkel mobil kami</h3>
+		<img src="yewen2.jpeg"><p>Ini adalah kalimat yang sangat penting dan diucapkan oleh Han Lue dalam "The Fast and The Furious: Tokyo Drift" (2006). Artinya kurang lebih bahwa kepercayaan dan karakter yang kuat adalah hal yang paling penting dalam sebuah hubungan, dan orang-orang yang kamu pilih untuk tetap dekat denganmu bisa menggambarkan karaktermu yang sebenarnya</p>
+		<p>Selain mengumbar banyak adegan laga, film waralaba ini juga kerap kali menunjukkan betapa penting dan kuatnya ikatan keluarga. Bagi Dominic Toretto, keluarga, baik yang sedarah maupun bukan, adalah hal yang paling penting dari segala yang ada di dunia.</p>
+	<div id="footer">
+		<p>&copy; RADITHIA RAHMAN [ NIM-231011700474]</p>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>

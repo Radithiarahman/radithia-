@@ -1,0 +1,86 @@
+body{
+            background-color: #F0F8FF;
+        }
+        #wadahcontent{
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        #header{
+            height: 400px;
+            background-color: white;
+            background-image: url("tai.png");
+            background-size: 100% 100%;
+        }
+        #navigasi{
+            height: 50px;
+            background-color: #F0F8FF;
+            padding-top: 30px;
+            text-align: center;
+        }
+        #navigasi a{
+            font-size: 20px;
+            padding: 10px 10px 10px 10px;
+            color: black;
+        }
+        #content{
+            width: auto;
+            height: auto;
+            background-color: black;
+            color: white;
+            padding: 5px 15px 5px 15px;
+        }
+        #content p{
+            font-family: verdana;
+            font-size: 16px;
+            text-align: justify;
+            color: white;
+            background-color: #333;
+        }
+        #content h1{
+            text-align: center;
+            color: white;
+        }
+        #footer p{
+            color: white;
+            text-align: center;
+        }
+        input[type=text],input[type=date],textarea,select{
+            width: 100%;
+            background-color: #BCC6CC;
+            padding: 10px 15px;
+            color: black;
+            border-radius: 5px;
+            border: none;
+            box-sizing: border-box;
+            margin: 10px;
+        }
+        input [type=radio], input[type=chechkbox]{
+            height: 18px;
+            width: 18px;
+            vertical-align: middle;
+            margin: 10px 5px 15px 10px;
+        }
+        input[type=submit]{
+            background-color:#616D7E ;
+            color: black;
+            padding: 10px 15px;
+            padding-top: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+        }
+        #footer{
+            width: auto;
+            height: 70px;
+            background-color: grey;
+            padding: 5px;
+            
+        }
+        #footer p{
+            color: white;
+          text-align: center;
+         padding-top: 15px;
+         background-color: grey;
+        }

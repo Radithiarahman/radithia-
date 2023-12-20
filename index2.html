@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DESIGN LAYOUT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">
+		<a href="index2.html">HOME</a>
+		<a href="galery.html">GALLERY</a>
+		<a href="aboutus.html">ABOUT US</a>
+		<a href="contactus.html">CONTACT US</a>
+		<div id="date-time"></div>
+	</div>
+	 <div id="content">
+            <!--java-->
+        <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short',
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+		<h1>fast and furius</h1>
+		<img src="frorius.jpg">
+		<p>Urutan Film Fast and Furious – Film memang menjadi tontonan yang asyik untuk mengisi waktu luang. Beragam genre dan tema cerita yang seru bisa membuat para penonton terhibur. Salah satu film waralaba series terlaris di dunia yang akan kita bahas kali ini adalah Fast and Furios.</p>
+		<p>The Fast and the Furious atau Fast & Furious merupakan sebuah seri film aksi, yang memusatkan ceritanya kepada balapan jalanan liar dan perampokan. Film ini didistribusikan oleh Universal Pictures.</p>
+		<p>Seri film pertama The Fast and the Furious ini menjadi titik awal pertemuan antara Dominic (Dom), seorang pembalap paling berkuasa dengan O’Connor agen rahasia yang ditugaskan untuk menangkap dalang dibalik kasus pembajakan truk besar-besaran.
+
+        Ia melakukan pendekatan dengan cara menyamar dan membaur dengan para gangster. Namun seiring berjalanya waktu O’connor melihat sisi baru di antara kehidupan para pembalap liar tersebut yang akhirnya merubah arah hidupnya dari yang semula ingin menjerat Dom menjadi pemimpin operasi penyelamatan pembalap paling ditakuti itu.</p>
+		<h3>FAST AND FURIUS 9</h3>
+		<img src="for.jpg"><p>Film kedua yang rilis pada 2003 ini menjadi lanjutan cerita pelarian O’Connor dari buruan FBI karena ketahuan secara sengaja membantu dan meloloskan Dom. Sampai akhirnya mantan agen rahasia ini tertangkap oleh seorang FBI yang ternyata adalah mantan bosnya dulu.
+
+         Alih-alih dijebloskan ke penjara, O’Connor diberikan kesempatan untuk menebus dosanya dan menghapus catatan hitamnya dulu.</p>
+		<p>Sejarah terus berkembang pesat di berbagai belahan dunia. Di Amerika Serikat tepatnya di  Moore School of Electrical Engineering, University of Pennsylvania,  ada yang disebut dengan ENIAC (Electronic Numerical Integrator And Computer). Lalu, dilanjutkan dengan perkembangan EDVAC (Electronic Discrete Variable Automatic Computer). Sementara itu, di era yang sama, di Inggris terdapat sebuah mesin yang disebut EDSAC (Electronic Delay Storage Automatic Calculator).Sebuah perjalanan panjang yang berasal dari rasa keingintahuan dan ilmu pengetahuan, ya, gengs. Kembali ke pertanyaan, “siapa penemu komputer”, semua ilmuwan hebat ini berkontribusi besar terhadap penemuan komputer dan kenyamanan hidup yang kita nikmati hari ini.</p>
+		<center>
+		<h3>VIDIO FAST AND FURIOUS</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/aSxScp7zUpY?si=2GT30KaeDtp36s_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+</center>
+	<div id="footer">
+		<p>&copy; RADITHIA RAHMAN [ NIM-231011700474]</p>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>
